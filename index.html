@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desarrollo web profesional para PyMEs y emprendedores. Sitios a medida con diseño moderno y funcional.">
+    <meta name="keywords" content="desarrollo web, sitios web, pymes, landing pages, diseño web">
+    <title>Manos al Site - Desarrollo Web para PyMEs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tsparticles"></div>
+    
+    <header>
+        <nav class="container">
+            <div class="logo">Manos al Site</div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#planes">Planes</a></li>
+                <li><a href="#proceso">Proceso</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><button class="theme-toggle" onclick="toggleTheme()"><i class="fas fa-moon"></i></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animate__animated animate__fadeInDown">Transformamos tu visión en <span class="highlight">realidad digital</span></h1>
+                <p class="subtitle animate__animated animate__fadeIn animate__delay-1s">Diseño y desarrollo web de alto impacto para PyMEs y emprendedores</p>
+                <div class="cta-buttons">
+                    <a href="#contacto" class="btn btn-primary pulse-animate">
+                        <i class="fas fa-paper-plane"></i>
+                        Comenzar proyecto
+                    </a>
+                    <a href="#servicios" class="btn btn-secondary animate__animated animate__fadeIn animate__delay-2s">
+                        <i class="fas fa-chart-line"></i>
+                        Ver resultados
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="tech-circle"></div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow"></div>
+        </div>
+    </section>
+
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestros Servicios</h2>
+                <p>Soluciones web completas para hacer crecer tu negocio</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Desarrollo Web Personalizado</h3>
+                    <p>Sitios web a medida diseñados para convertir visitantes en clientes</p>
+                    <div class="service-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Landing Pages de Alto Rendimiento</h3>
+                    <p>Páginas optimizadas para maximizar conversiones y captación de leads</p>
+                    <div class="service-tech">
+                        <span>Conversión</span>
+                        <span>SEO</span>
+                        <span>Analítica</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>E-commerce Básico</h3>
+                    <p>Tiendas online simples pero poderosas para vender tus productos</p>
+                    <div class="service-tech">
+                        <span>Woocommerce</span>
+                        <span>Shopify</span>
+                        <span>Pasarelas</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Mantenimiento Web</h3>
+                    <p>Actualizaciones, respaldos y soporte continuo para tu sitio</p>
+                    <div class="service-tech">
+                        <span>Seguridad</span>
+                        <span>Backups</span>
+                        <span>Soporte</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>Optimización de Velocidad</h3>
+                    <p>Mejoramos el rendimiento de tu sitio para mejores resultados</p>
+                    <div class="service-tech">
+                        <span>Performance</span>
+                        <span>Caché</span>
+                        <span>CDN</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proceso" class="process">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestro Proceso de Trabajo</h2>
+                <p>Metodología clara y transparente para garantizar resultados</p>
+            </div>
+            
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Consultoría Inicial</h3>
+                        <p>Analizamos tus necesidades y objetivos para crear una estrategia digital personalizada.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Diseño UX/UI</h3>
+                        <p>Creación de prototipos y diseño de interfaces centradas en la experiencia del usuario.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Desarrollo</h3>
+                        <p>Implementación técnica con las últimas tecnologías web para un producto robusto.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Pruebas y Ajustes</h3>
+                        <p>Testing exhaustivo para garantizar calidad y rendimiento en todos los dispositivos.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>Lanzamiento y Soporte</h3>
+                        <p>Implementación final y acompañamiento post-lanzamiento para asegurar el éxito.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="planes" class="plans">
+        <div class="container">
+            <div class="section-title">
+                <h2>Planes Mensuales</h2>
+                <p>Elige el plan que mejor se adapte a tu negocio</p>
+                <small style="color: var(--primary-blue); font-weight: 600;">🎁 Primer mes GRATIS con la entrega</small>
+            </div>
+            <div class="plans-grid">
+                <div class="plan-card">
+                    <h3 class="plan-name">Plan Básico</h3>
+                    <div class="plan-price">$80.000</div>
+                    <div class="plan-period">ARS/mes</div>
+                    <ul class="plan-features">
+                        <li>Sitio web básico</li>
+                        <li>Hosting incluido</li>
+                        <li>SSL gratuito</li>
+                        <li>1 actualización mensual</li>
+                        <li>Soporte por email</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-primary">Elegir Plan</a>
+                </div>
+                <div class="plan-card featured">
+                    <div class="feature-badge">Recomendado</div>
+                    <h3 class="plan-name">Plan Estándar</h3>
+                    <div class="plan-price">$120.000</div>
+                    <div class="plan-period">ARS/mes</div>
+                    <ul class="plan-features">
+                        <li>Sitio web profesional</li>
+                        <li>Hosting premium</li>
+                        <li>SSL gratuito</li>
+                        <li>3 actualizaciones mensuales</li>
+                        <li>Soporte prioritario</li>
+                        <li>Análisis de tráfico</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-primary">Elegir Plan</a>
+                </div>
+                <div class="plan-card">
+                    <h3 class="plan-name">Plan Avanzado</h3>
+                    <div class="plan-price">$180.000</div>
+                    <div class="plan-period">ARS/mes</div>
+                    <ul class="plan-features">
+                        <li>Sitio web completo</li>
+                        <li>Hosting empresarial</li>
+                        <li>SSL gratuito</li>
+                        <li>Actualizaciones ilimitadas</li>
+                        <li>Soporte 24/7</li>
+                        <li>SEO optimizado</li>
+                        <li>Integración con redes sociales</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-primary">Elegir Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Lo que dicen nuestros clientes</h2>
+                <p>Testimonios reales de empresas que confiaron en nosotros</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "Excelente trabajo, muy profesionales y cumplieron con todos los tiempos. Nuestro sitio web superó nuestras expectativas."
+                    </div>
+                    <div class="testimonial-author">María González</div>
+                    <div class="testimonial-role">Directora de Marketing - TechSolutions</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "El equipo de Manos al Site entendió perfectamente lo que necesitábamos. El resultado final es increíble."
+                    </div>
+                    <div class="testimonial-author">Carlos Rodríguez</div>
+                    <div class="testimonial-role">CEO - Innovación Digital</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "Servicio impecable desde el primer contacto. Muy recomendable para cualquier empresa que necesite presencia web."
+                    </div>
+                    <div class="testimonial-author">Ana Martínez</div>
+                    <div class="testimonial-role">Gerente General - CreativaStudio</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-us">
+        <div class="container">
+            <div class="section-title">
+                <h2>¿Por qué elegirnos?</h2>
+                <p>Nos diferenciamos por nuestro compromiso con la calidad y el servicio</p>
+            </div>
+            <div class="why-us-grid">
+                <div class="why-us-item">
+                    <div class="why-us-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h4>Comunicación Directa</h4>
+                    <p>Contacto directo con el equipo de desarrollo, sin intermediarios</p>
+                </div>
+                <div class="why-us-item">
+                    <div class="why-us-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h4>Diseño Adaptado</h4>
+                    <p>Cada sitio refleja la identidad única de tu marca</p>
+                </div>
+                <div class="why-us-item">
+                    <div class="why-us-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h4>Hosting Incluido</h4>
+                    <p>Alojamiento web rápido y seguro sin costos adicionales</p>
+                </div>
+                <div class="why-us-item">
+                    <div class="why-us-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h4>Soporte Post-Entrega</h4>
+                    <p>Acompañamiento continuo para el éxito de tu proyecto</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-final">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¿Listo para llevar tu negocio al siguiente nivel?</h2>
+                <p>Contáctanos hoy mismo y comienza tu transformación digital</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/5491123456789" class="btn btn-primary pulse-animate">
+                        <i class="fab fa-whatsapp"></i>
+                        WhatsApp
+                    </a>
+                    <a href="mailto:contacto@manosalsite.com" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i>
+                        Email
+                    </a>
+                    <a href="#contacto" class="btn btn-tertiary">
+                        <i class="fas fa-phone-alt"></i>
+                        Llamar
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <h4>Manos al Site</h4>
+                    <p>Desarrollo web profesional para PyMEs y emprendedores</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-services">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#">Desarrollo Web</a></li>
+                        <li><a href="#">Diseño UI/UX</a></li>
+                        <li><a href="#">Landing Pages</a></li>
+                        <li><a href="#">SEO</a></li>
+                        <li><a href="#">Mantenimiento</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> contacto@manosalsite.com</li>
+                        <li><i class="fas fa-phone"></i> +54 11 2345-6789</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Buenos Aires, Argentina</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Suscríbete para recibir consejos y ofertas especiales</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Tu email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Manos al Site. Todos los derechos reservados.</p>
+                <div class="footer-links">
+                    <a href="#">Términos y Condiciones</a>
+                    <a href="#">Política de Privacidad</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="whatsapp-float">
+        <a href="https://wa.me/5491123456789" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@3/tsparticles.bundle.min.js"></script>
+    <script>
+        // Theme Toggle
+        function toggleTheme() {
+            const body = document.body;
+            const themeToggle = document.querySelector('.theme-toggle i');
+            
+            if (body.getAttribute('data-theme') === 'dark') {
+                body.removeAttribute('data-theme');
+                themeToggle.className = 'fas fa-moon';
+                localStorage.setItem('theme', 'light');
+            } else {
+                body.setAttribute('data-theme', 'dark');
+                themeToggle.className = 'fas fa-sun';
+                localStorage.setItem('theme', 'dark');
+            }
+        }
+
+        // Check for saved theme preference
+        if (localStorage.getItem('theme') === 'dark') {
+            document.body.setAttribute('data-theme', 'dark');
+            document.querySelector('.theme-toggle i').className = 'fas fa-sun';
+        }
+
+        // Menu hamburguesa
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+
+        // Cerrar menú al hacer clic en un enlace
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.querySelector('.hamburger').classList.remove('active');
+                document.querySelector('.nav-links').classList.remove('active');
+            });
+        });
+
+        // Scroll suave
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Animaciones al hacer scroll
+        const animateOnScroll = () => {
+            const elements = document.querySelectorAll('section, .service-card, .process-step, .plan-card, .testimonial-card, .why-us-item');
+            
+            elements.forEach(element => {
+                const elementPosition = element.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.2;
+                
+                if (elementPosition < screenPosition) {
+                    element.classList.add('animate');
+                }
+            });
+        };
+
+        window.addEventListener('scroll', animateOnScroll);
+        window.addEventListener('load', animateOnScroll);
+
+        // Efecto hover para tarjetas
+        document.querySelectorAll('.service-card, .plan-card, .testimonial-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-10px)';
+                this.style.boxShadow = '0 15px 30px rgba(0, 0, 0, 0.1)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+                this.style.boxShadow = '0 10px 20px rgba(0, 0, 0, 0.05)';
+            });
+        });
+
+        // Initialize particles.js
+        tsParticles.load("tsparticles", {
+            particles: {
+                number: {
+                    value: 80,
+                    density: {
+                        enable: true,
+                        value_area: 800
+                    }
+                },
+                color: {
+                    value: "#ffffff"
+                },
+                shape: {
+                    type: "circle",
+                    stroke: {
+                        width: 0,
+                        color: "#000000"
+                    },
+                    polygon: {
+                        nb_sides: 5
+                    }
+                },
+                opacity: {
+                    value: 0.5,
+                    random: true,
+                    anim: {
+                        enable: true,
+                        speed: 1,
+                        opacity_min: 0.1,
+                        sync: false
+                    }
+                },
+                size: {
+                    value: 3,
+                    random: true,
+                    anim: {
+                        enable: true,
+                        speed: 2,
+                        size_min: 0.1,
+                        sync: false
+                    }
+                },
+                line_linked: {
+                    enable: true,
+                    distance: 150,
+                    color: "#ffffff",
+                    opacity: 0.4,
+                    width: 1
+                },
+                move: {
+                    enable: true,
+                    speed: 1,
+                    direction: "none",
+                    random: true,
+                    straight: false,
+                    out_mode: "out",
+                    bounce: false,
+                    attract: {
+                        enable: true,
+                        rotateX: 600,
+                        rotateY: 1200
+                    }
+                }
+            },
+            interactivity: {
+                detect_on: "canvas",
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: "grab"
+                    },
+                    onclick: {
+                        enable: true,
+                        mode: "push"
+                    },
+                    resize: true
+                },
+                modes: {
+                    grab: {
+                        distance: 140,
+                        line_linked: {
+                            opacity: 1
+                        }
+                    },
+                    bubble: {
+                        distance: 400,
+                        size: 40,
+                        duration: 2,
+                        opacity: 8,
+                        speed: 3
+                    },
+                    repulse: {
+                        distance: 200,
+                        duration: 0.4
+                    },
+                    push: {
+                        particles_nb: 4
+                    },
+                    remove: {
+                        particles_nb: 2
+                    }
+                }
+            },
+            retina_detect: true
+        });
+
+        // Animación de números en planes
+        const animateNumbers = () => {
+            const numbers = document.querySelectorAll('.plan-price');
+            
+            numbers.forEach(number => {
+                const target = parseInt(number.textContent.replace(/[^\d]/g, ''));
+                const increment = target / 50;
+                let current = 0;
+                
+                const timer = setInterval(() => {
+                    current += increment;
+                    if (current >= target) {
+                        current = target;
+                        clearInterval(timer);
+                    }
+                    number.textContent = `$${Math.floor(current).toLocaleString()}`;
+                }, 20);
+            });
+        };
+
+        const plansObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateNumbers();
+                    plansObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        const plansSection = document.querySelector('.plans');
+        if (plansSection) {
+            plansObserver.observe(plansSection);
+        }
+
+        // Efecto de carga inicial
+        window.addEventListener('load', function() {
+            document.body.style.opacity = '0';
+            document.body.style.transition = 'opacity 0.5s ease';
+            setTimeout(() => {
+                document.body.style.opacity = '1';
+            }, 100);
+        });
+    </script>
+</body>
+</html>
