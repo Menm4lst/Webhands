@@ -145,12 +145,13 @@ nav {
 
 /* Hero Section */
 .hero {
+    background-image: url(Image_fx.jpg);
     position: relative;
     height: 100vh;
     display: flex;
     align-items: center;
     overflow: hidden;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .hero-overlay {
@@ -159,7 +160,7 @@ nav {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(37, 99, 235, 0.9) 0%, rgba(6, 182, 212, 0.9) 100%);
+    background: linear-gradient(135deg, rgba(27, 83, 216, 0.9) 0%, rgba(46, 161, 182, 0.9) 100%);
     z-index: 1;
 }
 
@@ -180,7 +181,7 @@ nav {
 }
 
 .highlight {
-    background: linear-gradient(90deg, #06b6d4, #3b82f6);
+    background: linear-gradient(90deg, #ffffff, #ffffff);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -198,7 +199,7 @@ nav {
     width: 600px;
     height: 600px;
     border-radius: 50%;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgb(113, 154, 231);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -211,7 +212,7 @@ nav {
     width: 800px;
     height: 800px;
     border-radius: 50%;
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    border: 1px solid rgb(113, 154, 231);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -299,7 +300,7 @@ section.animate {
     background: var(--white);
     padding: 2.5rem;
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 30px rgba(0, 95, 238, 0.226);
     text-align: center;
     transition: all 0.3s ease;
     position: relative;
